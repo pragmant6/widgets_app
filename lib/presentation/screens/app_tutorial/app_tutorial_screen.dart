@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AppTutorial extends StatelessWidget {
-  const AppTutorial({super.key});
+class AppTutorialScreen extends StatelessWidget {
+  const AppTutorialScreen({super.key});
 
   static const String routeName = 'tutorial_screen';
 
