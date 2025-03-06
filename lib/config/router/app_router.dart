@@ -33,14 +33,14 @@ final GoRouter appRouter = GoRouter(
           },
         ),
         GoRoute(
-          path: '/app-tutorial',
+          path: '/tutorial',
           name: AppTutorialScreen.routeName,
           builder: (BuildContext context, GoRouterState state) {
             return AppTutorialScreen();
           },
         ),
         GoRoute(
-          path: '/infinite-scroll',
+          path: '/infinite',
           name: InfiniteScrollScreen.routeName,
           builder: (BuildContext context, GoRouterState state) {
             return InfiniteScrollScreen();
